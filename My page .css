@@ -1,0 +1,119 @@
+
+.body{
+  font-family: url(../https://fonts.gstatic.com);
+}
+
+.topnav {
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   width: 520px;
+   height: 69px;
+   flex-direction:right;
+   text-align: right;
+   background-color:#a53f00 ;
+   background-position: right;
+  right: 0;
+}
+   
+
+}
+
+.topnav a:hover {
+    
+    color:black;
+}
+.topnav a.active {
+        color:white;
+        font-weight:bold;
+    }
+    
+.header{
+    text-align:left;
+    font-size: 40pt;
+    color: white;
+    background-color:#545738;
+width: 1924px;
+height: 89px ;
+
+}
+
+.mypicture {
+  margin-top:20px;
+  background-image: url("../me.jpeg");
+  background-repeat: no-repeat;
+  flex-direction: left;
+ 
+}
+  .aboutme {
+    display: flex;
+    height: 432px;
+    width: 618px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 20px; 
+    font-family: 'montserrat' sans-serif;
+    ;
+  
+}
+      
+
+  .socialmedia {
+  
+      padding: 20px;
+      width: 97px;
+      height: 97px;
+    
+    }
+    
+    .socialmedia:hover {
+      opacity: 1.2;
+  }
+
+  .separator{
+    padding: 50px;
+    text-align: center;
+font-size: 50px;}
+
+.#hr{
+ float:left ;
+
+}
+
+  }
+  
+  .designthinking{
+    padding
+    display: flex;
+    height: 162px;
+    width: 1123px;
+   flex-direction: right;
+  }
+
+  .UXUIDesign 
+  {display: flex;
+    height: 162px;
+    width: 1123px;
+    align-items: right;
+  }
+  .digitaltransformation
+  {display: flex;
+    height: 162px;
+    width: 1123px;
+    align-items:right;
+  }
+
+.h1
+{
+  font-size: 80px;
+  justify-content: center;
+}
+
+  .right {
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
