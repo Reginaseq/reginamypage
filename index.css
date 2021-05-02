@@ -9,15 +9,14 @@
     font-weight: bold;
    width: 520px;
    height: 69px;
-   flex-direction:right;
    text-align: right;
    background-color:#a53f00 ;
-   background-position: right;
   right: 0;
+  margin-right: auto;
 }
    
 
-}
+
 
 .topnav a:hover {
     
@@ -75,15 +74,15 @@ height: 89px ;
     text-align: center;
 font-size: 50px;}
 
-.#hr{
+.hr{
  float:left ;
 
 }
 
-  }
+  
   
   .designthinking{
-    padding
+
     display: flex;
     height: 162px;
     width: 1123px;
@@ -115,5 +114,5 @@ font-size: 50px;}
     margin-right: auto;
     width: 50%;
   }
-}
+
 
