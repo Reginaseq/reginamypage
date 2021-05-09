@@ -3,39 +3,56 @@
   font-family: url(../https://fonts.gstatic.com);
 }
 
+
+/* Style the navigation menu */
 .topnav {
-    font-size: 20pt;
+  overflow: hidden;
+  position: relative;
+  font-size: 20pt;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-   width: 520px;
-   height: 69px;
-   text-align: right;
-   background-color:#a53f00 ;
+   text-align: left;
+   background-color:rgb(0, 0, 0);
   right: 0;
   margin-right: auto;
 }
-   
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
 
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
 
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #a53f00;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
 .topnav a:hover {
-    
-    color:black;
+  background-color: #ddd;
+  color: #a53f00;
 }
-.topnav a.active {
-        color:white;
-        font-weight:bold;
-    }
-    
-.header{
-    text-align:left;
-    font-size: 40pt;
-    color: white;
-    background-color:#545738;
-width: 1924px;
-height: 89px ;
 
+/* Style the active link (or home/logo) */
+.active {
+    background-color:#545738;
+    color: white;
 }
+
+
 
 .mypicture {
   margin-top:20px;
@@ -44,11 +61,24 @@ height: 89px ;
   flex-direction: left;
  
 }
+
+/*Flex container about me and tools*/
+.container {
+  display: flex;
+}
+
+
+
+.item + .item {
+  margin-left: 2%;
+}
   .aboutme {
     display: flex;
+    flex-grow: 1;
+
     height: 432px;
     width: 618px;
-    flex-direction: column;
+    flex-direction: left;
     margin: 0 auto;
     font-size: 20px; 
     font-family: 'montserrat' sans-serif;
@@ -62,6 +92,7 @@ height: 89px ;
       padding: 20px;
       width: 97px;
       height: 97px;
+      flex-direction: left;
     
     }
     
@@ -69,17 +100,6 @@ height: 89px ;
       opacity: 1.2;
   }
 
-  .separator{
-    padding: 50px;
-    text-align: center;
-font-size: 50px;}
-
-.hr{
- float:left ;
-
-}
-
-  
   
   .designthinking{
 
@@ -101,6 +121,16 @@ font-size: 50px;}
     width: 1123px;
     align-items:right;
   }
+
+
+
+  .separator{
+    padding: 50px;
+    text-align: center;
+font-size: 50px;}
+
+.hr{
+ float:left ;}
 
 .h1
 {
