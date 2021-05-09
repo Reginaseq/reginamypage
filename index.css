@@ -62,6 +62,10 @@
  
 }
 
+.my-picture img{ 
+  width:25px;
+  
+}
 /*Flex container about me and tools*/
 .container {
   display: flex;
@@ -145,4 +149,21 @@ font-size: 50px;}
     width: 50%;
   }
 
+.flex-column{
 
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-column div{
+  padding:3vw ;
+
+
+}
+
+.double-column{
+  display:flex;
+}
